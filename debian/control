@@ -1,7 +1,7 @@
 Source: orocos-bfl
 Priority: optional
 Maintainer: Tinne De Laet <tinne.delaet@mech.kuleuven.be>
-Build-Depends: debhelper (>= 5), cmake, liblti-dev
+Build-Depends: debhelper (>= 5), cmake
 Standards-Version: 3.7.2
 
 Package: orocos-bfl
