@@ -1,3 +1,10 @@
+orocos-bfl (0.8.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * remove liblti-dev for now
+
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Mon, 08 Dec 2014 15:59:46 +0100
+
 orocos-bfl (0.6.0-5) unstable; urgency=low
 
   * BFL latest trunk package
