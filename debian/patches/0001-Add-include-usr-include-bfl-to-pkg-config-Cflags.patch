@@ -1,0 +1,18 @@
+From: Jochen Sprickerhof <git@jochen.sprickerhof.de>
+Date: Mon, 15 Dec 2014 16:24:23 +0100
+Subject: Add include /usr/include/bfl to pkg-config Cflags
+
+---
+ orocos-bfl.pc.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/orocos-bfl.pc.in b/orocos-bfl.pc.in
+index 6e8cd26..71ae68d 100644
+--- a/orocos-bfl.pc.in
++++ b/orocos-bfl.pc.in
+@@ -6,4 +6,4 @@ Name: orocos-bfl
+ Description: Orocos Bayesian Filtering Library
+ Version: @VERSION@
+ Libs: -L${libdir} -lorocos-bfl @MATRIX_LIBS@ @RNG_LIBS@ @GINAC_LIBS@
+-Cflags: -I${includedir} -I@MATRIX_INCLUDE@ -I@RNG_INCLUDE@ -I@GINAC_INCLUDE@
++Cflags: -I${includedir} -I@MATRIX_INCLUDE@ -I@RNG_INCLUDE@ -I@GINAC_INCLUDE@ -I/usr/include/bfl
